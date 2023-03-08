@@ -16,3 +16,6 @@ Some quines in the Go programming language
   usually frowned upon. "Morally pure" quines are not supposed to issue file
   reading calls; this one doesn't -- it uses the embedded file support added
   in Go 1.16 to make the toolchain read the file for us.
+* `quine-byte-encoding.go`: Uses a common byte-encoding trick where the program
+  is encoded somehow (in this case simply as integer values for its bytes) and
+  the encoding is printed twice - once plainly, and once decoded.
