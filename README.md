@@ -6,7 +6,7 @@ Some quines in the Go programming language
   that does something similar. It's very simple, without using any special
   ASCII codes for quotes, but it does require a lot of the code on one long
   line.
-* `quine-str-rsc.go`: A quine crafted by Russ Cox and show in a
+* `quine-str-rsc.go`: A quine crafted by Russ Cox and shown in a
   [2010 blog post](https://research.swtch.com/zip). This one is using the
   Go backtick quote for nicer code formatting. It also demonstrates a common
   technique used in quines to make sure quoting works out, by passing an ASCII
@@ -19,4 +19,4 @@ Some quines in the Go programming language
 * `quine-byte-encoding.go`: Uses a common byte-encoding trick where the program
   is encoded somehow (in this case simply as integer values for its bytes) and
   the encoding is printed twice - once plainly, and once decoded. This is a very
-  general approach that's possible to apply in any language (even Assembly!)
+  general approach, applicable in any language (even Assembly!)
