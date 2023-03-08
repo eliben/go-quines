@@ -18,4 +18,6 @@ Some quines in the Go programming language
   in Go 1.16 to make the toolchain read the file for us.
 * `quine-byte-encoding.go`: Uses a common byte-encoding trick where the program
   is encoded somehow (in this case simply as integer values for its bytes) and
-  the encoding is printed twice - once plainly, and once decoded.
+  the encoding is printed twice - once plainly, and once decoded. This is a very
+  general approach that's possible to apply in any language (even Assembly!),
+  and different encodings can be used for obfuscation.
